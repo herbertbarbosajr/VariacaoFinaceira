@@ -11,6 +11,6 @@ namespace ConquestOne.Application.Dtos
         public DateTime Date { get; set; }
         public double Value { get; set; }
         public double VariationPreviousDate { get; set; }
-        public double VariationNextDate { get; set; }
+        public double VariationFirstDate { get; set; }
     }
 }

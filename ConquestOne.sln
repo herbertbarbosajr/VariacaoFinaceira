@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConquestOne.Application", "ConquestOne.Application\ConquestOne.Application.csproj", "{32CFE9D9-C079-47D6-95B4-32D257F79BF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConquestOne.Application", "ConquestOne.Application\ConquestOne.Application.csproj", "{32CFE9D9-C079-47D6-95B4-32D257F79BF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConquestOne.Domain", "ConquestOne.Domain\ConquestOne.Domain.csproj", "{4036DA08-4774-42D9-9B7E-DC0C7531B268}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConquestOne.Domain", "ConquestOne.Domain\ConquestOne.Domain.csproj", "{4036DA08-4774-42D9-9B7E-DC0C7531B268}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConquestOne.InfraStructure", "ConquestOne.InfraStructure\ConquestOne.InfraStructure.csproj", "{28370389-DEC8-4B46-BA3A-23EB9839EF2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConquestOne.InfraStructure", "ConquestOne.InfraStructure\ConquestOne.InfraStructure.csproj", "{28370389-DEC8-4B46-BA3A-23EB9839EF2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConquestOne.API", "ConquestOne.API\ConquestOne.API.csproj", "{D38EB745-57D5-497D-8916-113DD60A394A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{28370389-DEC8-4B46-BA3A-23EB9839EF2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28370389-DEC8-4B46-BA3A-23EB9839EF2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28370389-DEC8-4B46-BA3A-23EB9839EF2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D38EB745-57D5-497D-8916-113DD60A394A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D38EB745-57D5-497D-8916-113DD60A394A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D38EB745-57D5-497D-8916-113DD60A394A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D38EB745-57D5-497D-8916-113DD60A394A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

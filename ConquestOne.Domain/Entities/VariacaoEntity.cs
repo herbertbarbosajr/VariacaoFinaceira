@@ -8,12 +8,12 @@ namespace ConquestOne.Domain.Entities
 {
     public class VariacaoEntity
     {
-        public VariacaoEntity( DateTime date, double value, double variationPreviousDate, double variationNextDate )
+        public VariacaoEntity( DateTime date, double value, double variationPreviousDate, double variationFirstDate )
         {
             Date = date;
             Value = value;
             VariationPreviousDate = variationPreviousDate;
-            VariationNextDate = variationNextDate;
+            VariationFirstDate = variationFirstDate;
         }
         public VariacaoEntity()
         {
@@ -22,7 +22,7 @@ namespace ConquestOne.Domain.Entities
         public DateTime Date { get; set; }
         public double Value { get; set; }
         public double VariationPreviousDate { get; set; }
-        public double VariationNextDate { get; set; }
+        public double VariationFirstDate { get; set; }
         public void Execute(object? parameter)
         {
             throw new NotImplementedException();

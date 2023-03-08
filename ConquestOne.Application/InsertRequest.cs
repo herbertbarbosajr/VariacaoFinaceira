@@ -24,7 +24,7 @@ namespace ConquestOne.Application
             {
                 foreach(var item in entities)
                 {
-                    var variacao = new VariacaoEntity(item.Date, item.Value, item.VariationPreviousDate, item.VariationNextDate);
+                    var variacao = new VariacaoEntity(item.Date, item.Value, item.VariationPreviousDate, item.VariationFirstDate);
                     _financeRepository.InsertVariacao(item);
                 }
 

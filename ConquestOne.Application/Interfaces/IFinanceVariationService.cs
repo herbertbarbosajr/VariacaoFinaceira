@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConquestOne.Application.Interfaces
 {
-    public interface IFinanceService
+    public interface IFinanceVariationService
     {
         Task<string> Get();
     }
